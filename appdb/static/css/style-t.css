@@ -94,8 +94,6 @@
 	float:  right;
 	color:  lightgray;
 }
-
-
 /* Destop */
 @media only screen and (max-width: 1990px){
 	.card-product{
@@ -118,8 +116,7 @@
 		font-size: 23px;
 	}
 }
-@media only screen and (max-width: 1170px){
-	
+@media only screen and (max-width: 1170px){	
 	.card-product{
 		flex-direction: column ;
 		width: 100%;
@@ -134,7 +131,6 @@
 	.address-form{
 		font-size: 21px;
 	}
-
 }
 /* Tablet */
 @media only screen and (max-width: 991px){
@@ -187,24 +183,18 @@
 	.ul-info{
 		flex-direction: row;
 	}
-<<<<<<< HEAD
-=======
 	.product-list{
 		flex-direction: column;
 	}
->>>>>>> 5e0d9b7a60a135b97ec8de54470272935670aa6f
 	.card-product{
 		width: 100%
 	}
 	.card-items{
 		width: 9rem;
 		font-size: 15px;
-<<<<<<< HEAD
-=======
 	}
 	.contact-form{
 		flex-direction: column;
->>>>>>> 5e0d9b7a60a135b97ec8de54470272935670aa6f
 	}
 	.address-form{
 		font-size: 18px;
