@@ -249,4 +249,12 @@
     .category-list {
         margin-top: 5%;
     }
+    .drw-show {
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    top: 10px;
+    padding-bottom: 10px;
+    }
 }
