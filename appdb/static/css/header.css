@@ -173,6 +173,13 @@
   
     .footer-company, .footer-suppot {
         padding-top: 15px !important;
+       
+    }
+    .inf-company, .inf-support {
+        font-size: 13px;
+    }
+    .text-dark {
+        font-size: 12px !important;
     }
 }
 
