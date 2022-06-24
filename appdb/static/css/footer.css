@@ -1,35 +1,151 @@
-
 .footer {
-	background-color:#4f7389;
-	padding: 50px 0;
+    background-color: #4f7389;
+    padding: 50px 0;
 }
+
 .inf-company p {
-	margin-bottom: 0.4rem !important;
-	color: #fff;
-	font-weight: 400;
+    margin-bottom: 0.4rem !important;
+    color: #fff;
+    font-weight: 400;
 
 }
+
 .inf-company p a {
-	color: #92b7dd;
+    color: #92b7dd;
 }
+
 .inf-support p {
-	margin-bottom: 0.5rem !important;
-	color: #fff;
-	font-weight: 400;
+    margin-bottom: 0.5rem !important;
+    color: #fff;
+    font-weight: 400;
 }
-.inf-support p a{
-	color: #92b7dd;
+
+.inf-support p a {
+    color: #92b7dd;
 
 }
 
 .contact-method a {
-	font-size: 18px;
+    font-size: 18px;
 
 }
 
 .contact-method img {
-	width: 30px;
-	padding-top: 30px;
-	margin: 5px;
+    width: 30px;
+    padding-top: 30px;
+    margin: 5px;
+
+}
+
+@media (max-width: 421px) {
+    .text-dark {
+        font-size: 13px !important;
+    }
+
+    .inf-company p {
+        font-size: 15px !important;
+    }
+
+    .inf-support p {
+        font-size: 15px !important;
+    }
+
+    .contact-method img {
+        width: 35px !important;
+        padding: 0 !important;
+
+    }
+
+    .home .partner-block .col-8 {
+        width: 100% !important;
+    }
+
+    .footer .footer-img {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .partner-block .text-more {
+        display: none !important;
+    }
+
+    .partner-block .col-8 {
+        width: 100% !important;
+    }
+
+    .partner-block .symbol-customer a {
+        width: 50% !important;
+    }
+
+    .partner-block .symbol-customer {
+        display: flex !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .form-inf .container>.row {
+        display: block !important;
+
+    }
+
+    .introduce #text {
+        text-align: center !important;
+        text-transform: uppercase;
+        font-size: 15px !important;
+    }
+
+    .form-left .status {
+        bottom: 0px;
+        position: relative !important;
+        justify-content: center !important;
+    }
+
+    .form-left .status a {
+        display: flex;
+        align-items: flex-end;
+        font-size: 15px;
+
+    }
+
+    .status a img {
+        width: 30px !important;
+        height: auto !important;
+        padding-left: 0 !important;
+    }
+
+    .form-right {
+        padding: 10px 0 0 !important;
+        position: relative;
+    }
+
+    .tiding-newspaper {
+        display: block !important;
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .tiding-newspaper .tiding-info.col-4 {
+        margin: 0;
+        width: 100% !important;
+
+    }
+
+    .content-btn {
+        padding: 10px 10px !important;
+        margin: 0 auto !important;
+        font-size: 15px !important;
+        text-transform: uppercase !important;
+    }
+
+    .image-play {
+        margin: 0 !important;
+    }
+
+    .image-play img {
+        width: 100% !important;
+        height: auto !important;
+    }
 
 }

@@ -92,11 +92,17 @@
 
     .text-more p {
         margin-top: 15px !important;
+        font-size: 22px !important;
 
     }
 
     .introduce #text {
         margin-bottom: 0 !important;
+        font-size: 22px !important;
+    }
+    .introduce p {
+        font-size: 16px !important;
+        padding-top: 7px !important;
     }
 
     .note {
@@ -146,6 +152,27 @@
 
     .content .col-3 {
         width: 25% !important;
+    }
+    .text-center{
+        font-size: 15px !important;
+    }
+    .collapse:not(.show) {
+        display:block !important;
+    }
+    #main_nav {
+       
+        position: absolute !important;
+        right: 3rem !important;
+    }
+    #main_nav .ms-auto {
+        flex-direction: row !important ;
+    }
+    #main_nav .ms-auto li a {
+        margin-right: 5px !important;
+    }
+  
+    .footer-company, .footer-suppot {
+        padding-top: 15px !important;
     }
 }
 
@@ -221,6 +248,10 @@ span {
     background-color: #3498db;
     border-radius: 3px;
     padding: 13px 38px;
+}
+#main_nav .ms-auto li a:hover {
+    color: #295eab;
+    transition: 0.5s;
 }
 
 /* ------- banner ----- */
@@ -452,6 +483,9 @@ span {
 }
 
 /* ------ portfolia ------- */
+.container-show-product {
+    background:#d3deefd4;
+}
 .image-play {
     margin: 10px;
 
@@ -531,6 +565,7 @@ span {
 .content {
     background-color: #fff;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .content-menu {
