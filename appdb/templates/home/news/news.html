@@ -1,5 +1,5 @@
 {% extends "index.html" %} {% block content %}
-<section class="product-news">
+<section class="product-news" style="padding-bottom:30px ;">
     <div class="product-title">
         <div class="container">
             <div class="row justify-content-around">
@@ -87,127 +87,56 @@
                         </button>
                       </div>
                     </div>
-                <div class="col-xl-6 col-md-6 col-sm-6 col-6">
-                    <div class="row">
-                        <div class="title">
+                <div class="col-xl-6 col-md-6 col-sm-6 col-6 new-right" >
+                    
+                       <div class="title">
                             <p class="bold">
                                 <h6>Tin Mỗi Ngày</h6>
                             </p>
                         </div>
-                        <div class="row">
-                            <ol class="col d-flex ul-info">
-                                <li class="margin-size">
-                                    <div class="item-news">
-                                        <div class="card card-items">
-                                            <div class="bor">
-                                                <img src="{{url_for('static', filename='images/new7.jpg')}}" class="card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body" style="padding: 10px">
-                                                <h6 class="card-title" style="color:#41AE41">Nghệ thuật từ các bàn tay của người tạo phẩm</h6>
-                                                <p class="card-time">
-                                                    <img src="">1 năm trước
-                                                </p>
-                                                <p class="card-text">Tạo nên đồ dùng mang hình họa đặc sắc góp phần thêm cảnh quan ...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="margin-size">
-                                    <div class="item-news">
-                                        <div class="card card-items">
-                                            <div class="bor">
-                                                <img src="{{url_for('static', filename='images/new3.jpeg')}}" class="card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body" style="padding: 10px">
-                                                <h6 class="card-title" style="color:#41AE41">Thõa sức sáng tạo đồ chơi cho trẻ cùng chai nhựa</h6>
-                                                <p class="card-time">
-                                                    <img src="">1 năm trước
-                                                </p>
-                                                <p class="card-text">Đồ chơi của trẻ nhỏ mang hình ảnh màu sắc sẽ phát triển tu duy...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ol>
-                            <ol class="col d-flex ul-info">
-                                <li class="margin-size">
-                                    <div class="item-news">
-                                        <div class="card card-items">
-                                            <div class="bor">
-                                                <img src="{{url_for('static', filename='images/new1.jpg')}}" class="card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body" style="padding: 10px">
-                                                <h6 class="card-title" style="color:#41AE41">Dụng cụ học tập "mới" dưới mái trường</h6>
-                                                <p class="card-time">
-                                                    <img src="">1 năm trước
-                                                </p>
-                                                <p class="card-text">Dụng cụ học tập được chế tạo từ chai nhựa giúp các em nhỏ tiếp cận...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="margin-size">
-                                    <div class="item-news">
-                                        <div class="card card-items">
-                                            <div class="bor">
-                                                <img src="{{url_for('static', filename='images/new2.jpg')}}" class="card-img-top" alt="...">
-                                            </div>
-                                            <div class="card-body" style="padding: 10px">
-                                                <h6 class="card-title" style="color:#41AE41">Trồng cây tạo mảnh vườn mini tại nhà</h6>
-                                                <p class="card-time">
-                                                    <img src="">1 năm trước
-                                                </p>
-                                                <p class="card-text">Tận dụng vỏ chai nhựa để tạo ra một "Trang Trại Nhỏ" tại nhà giúp ...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ol>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="{{url_for('static', filename='images/new4.jpg')}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="tiding-information information-small">
+                                <a href="#">Đọc tiếp </a>
+                                <i class="fa-solid fa-angles-right"></i>
+                            </div>
+                            
+                          </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="title">
-                            <p class="bold">
-                                <h6>Hoạt Động Cộng Đồng</h6>
-                            </p>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="{{url_for('static', filename='images/new4.jpg')}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="tiding-information information-small">
+                                <a href="#">Đọc tiếp </a>
+                                <i class="fa-solid fa-angles-right"></i>
+                            </div>
+                          </div>
                         </div>
-                        <ol class="col-6 d-flex ul-info">
-                            <li class="margin-size">
-
-                                <div class="item-news">
-                                    <div class="card card-items" >
-                                        <div class="bor">
-                                            <img src="{{url_for('static', filename='images/new5.jpg')}}" class="card-img-top" alt="...">
-                                        </div>
-                                        <div class="card-body" style="padding: 10px">
-                                            <h6 class="card-title" style="color:#41AE41">Tặng quà cho những hoàn cảnh khó khăn</h6>
-                                            <p class="card-time">
-                                                <img src=""> 1 năm trước
-                                            </p>
-                                            <p class="card-text">Không chỉ là chai nhựa mà còn là niềm vui với những hoàn cảnh không may mắn...</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </li>
-                            <li class="margin-size">
-                                <div class="item-news">
-                                    <div class="card card-items" >
-                                        <div class="bor">
-                                            <img src="{{url_for('static', filename='images/new4.jpg')}}" class="card-img-top" alt="...">
-                                        </div>
-                                        <div class="card-body" style="padding: 10px">
-                                            <h6 class="card-title" style="color:#41AE41">Cuộc thi tạo ra sự tiện nghi cho căn nhà thân yêu</h6>
-                                            <p class="card-time">
-                                                <img src="">1 năm trước
-                                            </p>
-                                            <p class="card-text">Để mang đến sự tiện nghi cho căn nhà của chúng ta thì chỉ cần một chút...</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ol>
-                    </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="{{url_for('static', filename='images/new4.jpg')}}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            </div>
+                            <div class="tiding-information information-small">
+                                <a href="#">Đọc tiếp </a>
+                                <i class="fa-solid fa-angles-right"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                   
                 </div>
             </div>
         </div>

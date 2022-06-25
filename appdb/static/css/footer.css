@@ -37,7 +37,7 @@
 
 }
 
-@media (max-width: 421px) {
+@media (max-width: 420px) {
     .text-dark {
         font-size: 13px !important;
     }
