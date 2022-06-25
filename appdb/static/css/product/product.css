@@ -258,3 +258,35 @@
     padding-bottom: 10px;
     }
 }
+@media (max-width:768px) {
+    .btn-drw{
+        width: 66% !important;
+    }
+    .shop-card-title .col-3 {
+        width: 100%;
+    }
+    .shop-card-title .col-9 {
+        width: 100%;
+    }
+    
+    .text-title {
+        font-size: 13px
+    }
+    .shop-card-title {
+        flex-direction: column !important;
+    }
+    .straight {
+        margin-right: 0 !important;
+    }
+    .card_btn {
+        font-size: 0.7rem;
+
+    }
+    /* .card-data .author {
+        position: absolute;
+        top: 0;
+    }
+    .card_content_inf .card_text {
+        font-size: 0.7rem;
+    } */
+}

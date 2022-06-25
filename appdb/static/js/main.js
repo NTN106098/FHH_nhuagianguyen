@@ -1,3 +1,14 @@
+
+
+$(".menu-open").on('click', function(e) {
+console.log(1)
+    e.preventDefault();
+    $(this).parent().toggleClass('active-menu')
+});
+$(".close-menu").on('click', function(e) {
+    $(".banner").removeClass('active-menu');
+
+});
 const menuTitle = document.querySelector('.content-menu')
 menuTitle.addEventListener('click', function(x) {
     if (x.target.classList.contains('content-btn')) {
@@ -9,13 +20,3 @@ menuTitle.addEventListener('click', function(x) {
         menuItem.querySelector(Taget).classList.add('active')
     }
 })
-
-$(".menu-open").on('click', function(e) {
-
-    e.preventDefault();
-    $(this).parent().toggleClass('active-menu')
-});
-$(".close-menu").on('click', function(e) {
-    $(".banner").removeClass('active-menu');
-
-});

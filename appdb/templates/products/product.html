@@ -2,7 +2,7 @@
 
 <main style="padding-bottom: 50px; background: rgb(253, 255, 255); margin-top:5rem">
     <div class="row shop-card-title">
-        <div class="col-3 menu-left" style="background: rgb(241, 246, 250) ; ">
+        <div class="col-3 col-xl-3 col-md-3 col-sm-3 menu-left" style="background: rgb(241, 246, 250) ; ">
             <div class="category">
                 <div class="category-top" style="margin-top:10px">
                     <span class="text-title"><strong>TÌM KIẾM</strong></span>
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-9" style="background:#fff ;">
+        <div class="col-9 col-xl-9 col-md-9 col-ms-9" style="background:#fff ;">
             <div class="shop-title">
 
                 <div class="dropdown drw-show">
@@ -48,13 +48,14 @@
                 <div class="straight" style="border-bottom: 3px solid rgb(176, 210, 248) ;margin-right:30px; padding-top:10px"></div>
                 <div class="shop-container">
                     <div class="row">
-
                         <div class="cards ">
                             {% for i in range(4)%}
-                            <div class="cards_item card-data">
+                            <div class="cards_item card-data col-xl-4 col-md-4 col-sm-4 col-4">
 
                                 <div class="card ">
-                                    <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
+                                    <div class="card_image">
+                                        <img src="https://picsum.photos/500/300/?image=10">
+                                    </div>
                                     <div class="card_content">
                                         <div class="card_content_inf">
                                             <span class="author">Thông Tin Sản Phẩm</span>
@@ -64,7 +65,7 @@
                                             <button class="btn card_btn card_btn_inf">Liên hệ</button>
                                         </div>
                                     </div>
-                                    -->
+                                    
                                 </div>
 
                             </div>

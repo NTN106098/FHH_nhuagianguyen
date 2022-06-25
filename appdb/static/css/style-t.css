@@ -52,3 +52,15 @@
 		font-size: 15px;
 	}
 }
+@media  (max-width:420px) {
+	.contact-company-inf  .address-form{
+		flex-direction: column !important;
+	}
+	.news-content {
+		flex-direction: column !important;
+	}
+	.product-news .news-content .col-6 {
+		
+		width: 100% !important;
+	}
+}

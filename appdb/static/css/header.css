@@ -181,6 +181,7 @@
     .text-dark {
         font-size: 12px !important;
     }
+ 
 }
 
 * {
@@ -196,7 +197,12 @@ li {
 a {
     text-decoration: none !important;
 }
-
+.menu-open {
+    display: none;
+}
+.close-menu {
+    display: none;
+}
 #navbar_top {
     height: 40px;
     background-color: #3498db !important;
