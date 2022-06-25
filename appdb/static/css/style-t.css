@@ -1,218 +1,54 @@
-.shadow{
-    margin: 5px;
-    padding: 10px;
-    max-width: 100%;
-    border-radius: 10px;
-    width: auto !important;
-    height: auto  !important;
-    box-shadow: -1px 10px 18px #dbdbdb;
-    filter: grayscale(1);
-    border: 1px solid lightgray
+.information-small a {
+	font-size: 15px;
 }
-.name{
-	background: linear-gradient(to right, #00ccff 30%, #0066cc 70%);
-    text-transform: uppercase;
-    text-align: center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.new-right .g-4 {
+	--bs-gutter-x: 0.5rem;
 }
-.margin-bot{
-	margin-bottom: 10px;
+.name-company {
+	text-align: center;
+	margin: 15px 0 25px 0;
 }
-.line-bottom{
-	width:  100%;
-	border-bottom : 1px solid lightblue;
-	margin: 20px 0;
+.contact-phone {
+	font-size: 25px;
+	padding: 20px 0 0 30px ;
+	font-weight: 700;
 }
-.image{
-	max-width: 100%;
-	width: 200px;
-	height: 250px;
+.contact-form .form-right {
+	padding-top: 30px;
 }
-.margin-size{
-	margin: 10px;
-}
-.ul-info{
-	list-style: none;
-	text-decoration: none;
-	align-items: center;
-}
-.non-text-dec{
-	text-decoration: none;
-}
-.sizetext{
-	font-size: 18px;
-	padding: 20px 45px;
-}
-.form-input{
-	padding: 7px 12px;
-	border-color: #f2f2f2;
-	box-shadow: none;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	height: 34px;
-	width:  100%;
-}
-.form-info-p{
-	margin: 5px 0;
-}
-.button{
-    padding: 3px 25px;
-    font-size: 20px;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.box{
-	margin: 1px solid #333 ;
-	box-shadow: -1px 3px 9px #ccc;
-}
-.bor{
-	overflow: hidden;
-	width: 100%;
-	height: 200px;
-}
-/* .card{
-	box-shadow: 6px 8px 10px #0000001c;
-	margin: 15px 0;
-} */
-.card-img-top{
-	width: 100%;
-	height: 100%;
-}
-.card-time{
-	font-size:  12px;
-	float:  right;
-	color:  lightgray;
-}
-.caption-title {
-	width: 100%;
-	background: #dbdbdb;
-	position: absolute;
-    opacity: 0.9;
-    left: 0;
-}
-/* Destop */
-@media only screen and (max-width: 1990px)
-{
-	/* .product-list{
-		flex-direction: column;
+@media (max-width:768px) {
+	.contact-phone {
+		
+		padding: 4px  ;
+		
 	}
-	.card-product{
-		width: 24rem;
-		height: 333px;
+	.ul-info li:last-child {
+		font-size: 12px;
 	}
-	.card-items{
-		width: 15rem;
+	.contact-method img {
+		width: 26px;
+		margin: 4px;
 	}
-	.address-form{
-		font-size: 24px;
-	} */
-}
-@media only screen and (max-width: 1366px){
-	.product-list{
-		flex-direction: column;
+	::placeholder {
+		font-size:12px ;
 	}
-	.card-product{
-		width: 24rem;
-		height: 333px;
+	.contact-form .form-right {
+		padding-left: 0;
+		
 	}
-	.card-items{
-		width: 13rem;
-		font-size: 24px;
+	.ul-info li a:last-child {
+		word-wrap: break-word;
 	}
-	.address-form{
-		font-size: 23px;
+	.name-company {
+		font-size: 16px;
 	}
-}
-@media only screen and (max-width: 1170px){	
-	.product-list{
-		flex-direction: column;
+	.ul-info {
+		font-size: 12px;
 	}
-	.card-product{
-		width: 21rem;
-		font-size: 22px;
-		height: 333px;
+	.name {
+		font-size: 14px;
 	}
-	.card-items{
-		width: 11rem;
-		font-size: 17px;
-	}
-	.ul-info{
-		flex-direction: row;
-	}
-	.address-form{
-		font-size: 21px;
-	}
-}
-/* Tablet */
-@media only screen and (max-width: 991px){
-	[class*="col-"] {
-	  width: 100%;
-	}
-	.card{
-		width: 100%;
-	}
-	.card-items{
-		width: 9rem;
-		font-size: 11px;
-	}
-	.ul-info{
-		flex-direction: row;
-	}
-	.address-form{
-		font-size: 19px;
-	}
-}
-@media only screen and (max-width: 786px){
-	[class*="col-"] {
-	  width: 100%;
-	}
-	.card{
-		width: 100%;
-	}
-	.product-list{
-		flex-direction: column;
-	}
-	.card-product{
-		width: 100%;
-	}
-	.card-items{
-		width: 8rem;
-		font-size: 9px;
-	}
-	.ul-info{
-		flex-direction: row;
-	}
-	.sizetext{
-		font-size: 1rem ;
-	}
-}
-/* Mobile */
-@media only screen and (max-width: 412px){
-	[class*="col-"] {
-	  width: 100%;
-	}
-	.ul-info{
-		flex-direction: row;
-	}
-	.product-list{
-		flex-direction: column;
-	}
-	.card-product{
-		width: 100%
-	}
-	.card-items{
-		width: 9rem;
+	.contact-phone {
 		font-size: 15px;
-	}
-	.contact-form{
-		flex-direction: column;
-	}
-	.address-form{
-		font-size: 18px;
-	}
-	.sizetext{
-		font-size: 0.5rem;
 	}
 }

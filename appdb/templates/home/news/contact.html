@@ -1,26 +1,26 @@
  {% extends "index.html" %} {% block content %}
+ {% import "macros/input_macro.html" as in %}
 <div class="container">
     <div class="row">
-        <h2 class="name" style="margin-top: 20px"><b>CÔNG TY TNHH NHỰA GIA NGUYỄN</b></h2>
-        <div class="col row address-form" style="flex-direction:column">
+        <h2 class="name-company" ><b>CÔNG TY TNHH NHỰA GIA NGUYỄN</b></h2>
+        <div class="col  address-form" >
+           
             <div class="col">
-                <h5 class="name" style="text-align: left">Địa chỉ:</h5>
-            </div>
-            <div class="col">
+                <h5 class="name" >Địa chỉ:</h5>
                 <ul class="ul-info">
                     <li><b>Địa chỉ Trụ Sở Chính:</b> 25 Đường số 13 khu dân cư ấp 5 Phong Phú, Huyện Bình Chánh.</li>
                     <li><b>Địa chỉ Chi Nhánh:</b> E3/83C1 ấp 5 Đường Đa Phước, Xã Đa Phước, Huyện Bình Chánh.</li>
                     <li><b>Website:</b> <a class="non-text-dec" href="#">gianguyenplastic.com</a></li>
                     <li><b>Email:</b> <a class="non-text-dec" href="#">gianguyenplastic@gmail.com</a></li>
-                    <li><b>Hotline:</b> <a class="non-text-dec" href="#">0908 757 528</a> (Mr. Trực)</li>
+                    <li><b>Hotline:</b> <a class="non-text-dec contact-phone" href="#">0908 757 528</a> (Mr. Trực)</li>
                 </ul>
             </div>
         </div>
-        <div class="col row contact-form" style="flex-direction:column">
+        <div class="col contact-form" >
             <div class="col">
-                <h5 class="name" style="text-align: left">THÔNG TIN LIÊN HỆ</h5>
+                <h5 class="name" >THÔNG TIN LIÊN HỆ:</h5>
             </div>
-            <div class="col size-form">
+            <!-- <div class="col size-form">
                 <div class="form-info">
                     <form action="" method="post">
                         <p class="form-info-p">Họ tên:</p>
@@ -40,12 +40,40 @@
                         <input type="submit" class="button" value="Gửi">
                     </form>
                 </div>
-            </div>
+            </div> -->
+            <div class="col form-right">
+                <div class="input-form insert-infcustomer">
+                  <div class="row">
+                    <div class="col-6 input-inf">
+                      {{in.input(placeholder="Họ tên")}} 
+                      {{in.input(placeholder="Địa chỉ")}}
+                    </div>
+                    <div class="col-6 input-inf">
+                      {{in.input(placeholder="Số điện thoại")}}
+                      {{in.input(placeholder="Email")}}
+                    </div>
+                  </div>
+                </div>
+                <div class="note">
+                  <!-- {{in.input(placeholder="Nội dung...")}} -->
+                  <textarea
+                    class="form-control"
+                    id="note"
+                    rows="6"
+                    cols="70"
+                    placeholder="Nhập nội dung..."
+                  ></textarea>
+                </div>
+                <button class="btn-click btn">
+                  Gửi
+                </button>
+                <!-- <label id="submit" style="width: 100px;height: 30px; background: yellowgreen; text-align: center; color: white;font-size: 20px; font-weight: bold;">GỬI</label> -->
+              </div>
         </div>
 
     </div>
     <div class="line-bottom"></div>
-    <div class="row" style="padding-top: 10px">
+    <div class="row" style="padding-top: 30px">
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.081542301399!2d106.645800514422!3d10.728194063016588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e6b6a325b81%3A0x21e253199473e889!2zMjUgxJDGsOG7nW5nIHPhu5EgMTMsIEtodSBkw6JuIGPGsCDhuqRwIDUgUGhvbmcgUGjDuiwgQsOsbmggQ2jDoW5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1654932958304!5m2!1svi!2s"
                 width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
