@@ -722,3 +722,62 @@ span {
     background-color: #fff;
     padding: 80px;
 }
+@media (max-width:1024px) {
+    /* .menu-btn a {
+        padding: 10px !important;
+    }
+     */
+    .menu-btn a {
+        padding: 13px 14px;
+        font-size: 10px;
+    }
+    .product-info.col-3 {
+        width: 32% !important;
+    }
+    .symbol-customer a img {
+        width: 150px !important;
+        
+    }
+    .text-dark {
+        font-size: 18px !important;
+    }
+    .banner-house-text ul li a {
+        
+        font-size: 13px;
+        
+    }
+    .text-more p {
+        font-size: 28px !important;
+        margin-top: 35px !important;
+    }
+    .introduce #text {
+        font-size: 30px !important;
+    }
+    .introduce p {
+        font-size: 18px !important ;
+    }
+    .status a img {
+        width: 49px !important;
+        height: 43px;
+        padding-left: 10px ;
+    }
+    .status a { 
+        font-size: 17px !important;  
+    }
+    .footer-company, .footer-suppot {
+        font-size: 17px !important;
+    }
+    .product-title .news-content .col-6 {
+        width: 100% !important;
+    }
+}
+@media (max-width:1170px) {
+    .menu-btn a {
+        padding: 13px 14px !important
+    }
+    .banner-house-text ul li a {
+        
+        font-size: 13px;
+        
+    }
+}
