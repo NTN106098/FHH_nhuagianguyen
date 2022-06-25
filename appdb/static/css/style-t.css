@@ -72,10 +72,10 @@
 	width: 100%;
 	height: 200px;
 }
-.card{
+/* .card{
 	box-shadow: 6px 8px 10px #0000001c;
 	margin: 15px 0;
-}
+} */
 .card-img-top{
 	width: 100%;
 	height: 100%;
@@ -85,10 +85,17 @@
 	float:  right;
 	color:  lightgray;
 }
+.caption-title {
+	width: 100%;
+	background: #dbdbdb;
+	position: absolute;
+    opacity: 0.9;
+    left: 0;
+}
 /* Destop */
 @media only screen and (max-width: 1990px)
 {
-	.product-list{
+	/* .product-list{
 		flex-direction: column;
 	}
 	.card-product{
@@ -100,7 +107,7 @@
 	}
 	.address-form{
 		font-size: 24px;
-	}
+	} */
 }
 @media only screen and (max-width: 1366px){
 	.product-list{
