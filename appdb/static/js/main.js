@@ -1,6 +1,6 @@
 const menuTitle = document.querySelector('.content-menu')
-menuTitle.addEventListener('click',function(x){
-    if(x.target.classList.contains('content-btn')) {
+menuTitle.addEventListener('click', function(x) {
+    if (x.target.classList.contains('content-btn')) {
         const Taget = x.target.getAttribute('data-title');
         menuTitle.querySelector('.active').classList.remove('active');
         x.target.classList.add('active');
@@ -9,3 +9,13 @@ menuTitle.addEventListener('click',function(x){
         menuItem.querySelector(Taget).classList.add('active')
     }
 })
+
+$(".menu-open").on('click', function(e) {
+
+    e.preventDefault();
+    $(this).parent().toggleClass('active-menu')
+});
+$(".close-menu").on('click', function(e) {
+    $(".banner").removeClass('active-menu');
+
+});
