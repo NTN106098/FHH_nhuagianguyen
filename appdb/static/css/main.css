@@ -212,6 +212,7 @@
     }
     .active-menu{
         z-index: 111;
+        /*text-overflow: ellipsis;*/
     }
     .active-menu .banner-menu{
         left: 0 !important;
