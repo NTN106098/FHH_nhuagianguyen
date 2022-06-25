@@ -43,16 +43,17 @@
     }
 
     .inf-company p {
-        font-size: 15px !important;
+        font-size: 13px !important;
     }
 
     .inf-support p {
-        font-size: 15px !important;
+        font-size: 13px !important;
     }
 
     .contact-method img {
         width: 35px !important;
-        padding: 0 !important;
+        padding-top: 15px  !important;
+        left: 10px !important;
 
     }
 
@@ -61,10 +62,15 @@
     }
 
     .footer .footer-img {
-        display: flex !important;
+        /* display: flex !important;
         align-items: center;
-        justify-content: space-between;
-
+        justify-content: space-between; */
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .footer-img img {
+        width: 80px;
+        height: 50px;
     }
 
     .partner-block .text-more {
