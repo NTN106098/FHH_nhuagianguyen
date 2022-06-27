@@ -262,7 +262,7 @@
         font-size: 23px !important;
     }
     .introduce p {
-        font-size: 17px !important;
+        font-size: 15px !important;
         
     }
 
@@ -347,6 +347,7 @@
         padding-right: 50px;
         padding-left: 50px !important;
     }
+   
     
  
 }
@@ -534,9 +535,35 @@
     .text-dark {
         font-size: 8px !important;
     }
+    /* header  */
+    .banner-content {
+       
+        top: 22% !important;
+        
+    }
+    .banner-content h2 {
+        font-size: 28px !important;
+    }
+    .banner-content h3 {
+        font-size: 23px !important;
+    }
+    .banner-content p {
+        font-size: 13px !important;
+    }
+    .banner-content-btn a:nth-child(1) {
+      
+        padding: 12px 30px !important;
+        
+    }
+    
 
 }
 @media  (max-width:420px) {
+    .btm {
+       
+        width: 13% !important;
+       
+    }
     .shop-container .col-4 {
         flex: 0 0 auto;
         width: 100% !important;
