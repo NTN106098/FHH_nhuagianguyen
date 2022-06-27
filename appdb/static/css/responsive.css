@@ -49,6 +49,10 @@
        
         justify-content: center !important;
     }
+    .form-right {
+       
+        padding-right: 50px;
+    }
 }
 @media (max-width:1170px) {
     .menu-btn a {
@@ -89,7 +93,12 @@
        
         justify-content: center !important;
     }
+    .form-right {
+       
+        padding-right: 50px;
+    }
 }
+
 @media (max-width:1024px) {
    
     .menu-btn a {
@@ -144,7 +153,12 @@
        
         justify-content: center !important;
     }
+    .form-right {
+       
+        padding-right: 50px;
+    }
 }
+
 @media (max-width: 768px) {
     .menu-mid {
         width: 100% !important;
@@ -327,6 +341,11 @@
     }
     .text-dark {
         font-size: 13px !important;
+    }
+    .form-right {
+       
+        padding-right: 50px;
+        padding-left: 50px !important;
     }
     
  
@@ -659,5 +678,9 @@
         padding-top: 11px !important;
         margin: 5px !important;
         margin-left: 23px !important;
+    }
+    .form-right {
+        padding-right: 50px;
+        padding-left: 0px !important;
     }
 }
