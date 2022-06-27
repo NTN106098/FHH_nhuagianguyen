@@ -71,9 +71,6 @@
 	.contact-phone {
 		font-size: 15px;
 	}
-	.text-dark {
-		font-size: 15px !important;
-	}
 }
 @media  (max-width:420px) {
 	.contact-company-inf  .address-form{
@@ -92,10 +89,5 @@
 		opacity: 0.8;
 		color: black;
 	}
-	.text-dark {
-		font-size: 12px !important;
-	}
-}
-@media (max-width:1024px) {
 	
 }

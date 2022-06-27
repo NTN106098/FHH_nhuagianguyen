@@ -245,6 +245,7 @@
     font-size: 23px;
     font-weight: 700;
 }
+
 @media (max-width:768px) {
     .category-list {
         margin-top: 5%;
@@ -257,8 +258,6 @@
     top: 10px;
     padding-bottom: 10px;
     }
-}
-@media (max-width:768px) {
     .btn-drw{
         width: 66% !important;
     }
