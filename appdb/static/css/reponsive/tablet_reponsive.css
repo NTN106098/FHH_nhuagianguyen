@@ -1,0 +1,385 @@
+
+@media screen and (max-width: 800px) {
+    .banner-icon {      
+        margin: 0 !important;
+    }
+    .banner-icons .col-3 {
+        width: 60% !important;
+    }
+    .banner-icons .col-2 {
+        width: 40% !important;
+    } 
+    .banner-icon i {
+        font-size: 30px !important;
+        padding: 0 12px !important;
+    }
+    .banner-shop,.banner-search {       
+        padding: 20px 25px !important;
+    }
+    .banner-shop i {
+        font-size: 25px !important;
+        margin: 3px 0 !important;   
+    }
+    .banner-search i {
+        font-size: 25px !important;
+        margin: 5px 0 !important;
+        
+    }
+    .collapse:not(.show) {
+        display:block !important;
+    }
+    #main_nav {
+       
+        position: absolute !important;
+        right: 3rem !important;
+    }
+    #main_nav .ms-auto {
+        flex-direction: row !important ;
+    }
+    #main_nav .ms-auto li a {
+        margin-right: 5px !important;
+    }
+    .contact-method img {
+       
+        margin: 2px !important;
+    }
+    .menu-btn {
+        position: relative;
+        padding: 0 0px !important;
+        margin-top: 5px !important;
+        margin-left: 10px;
+    }
+    
+    .menu-btn a {
+        
+        font-size: 11px;
+    }
+    .banner-house-text ul {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .banner-house-text ul li a {
+        font-size: 12px !important;
+    }
+    .menu-left img {
+        margin-top: 10px !important;
+    }
+    .menu-info i {
+       
+        margin-left: 10px !important;
+    }
+    .menu-info .text-dark {
+        font-size: 11px !important;
+    }
+    .product-info {
+        margin: 0 !important;
+    }
+    .btm::after {
+        width: 115px !important;
+    }
+    /*  */
+    .product-company  h1{
+        font-size: 22px !important;
+    } 
+    .product-introduce a {
+        padding: 14px 30px;
+    }
+    .symbol-customer a img {
+        width: 110px !important;
+    }
+    .text-more p {
+        font-size: 23px !important;
+    }
+    .introduce #text {
+        font-size: 24px !important;
+    }
+    .introduce p {
+        font-size: 16px !important ;
+    }
+    .tiding-information a {
+        font-size: 20px !important;
+    }
+   
+} 
+@media screen and  (max-width: 768px) {
+    .menu-mid {
+        width: 100% !important;
+    }
+
+    .banner-house-text ul li a {
+        font-size: 14px !important;
+
+    }
+
+    .banner-house-text ul {
+        margin: 5px !important;
+        padding: 0 !important;
+    }
+
+    .banner-house-text ul li {
+        padding: 0 12px !important;
+    }
+
+    .banner-menu .col-4 {
+        width: 33.3333% !important;
+        align-items: center !important;
+
+    }
+
+    .banner-icon {
+        display: flex !important;
+        padding: 0 !important;
+        margin: 0 !important;
+
+    }
+
+    .banner-icon i {
+        font-size: 27px !important;
+        padding: 0 10px !important;
+        color: #ccc !important;
+    }
+
+    .banner-icons .col-2 {
+        padding: 0 10px !important;
+        width: 16.6% !important;
+    }
+
+    .banner-menu .menu-mid .col-6 {
+        width: 66.66% !important;
+    }
+
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+
+    .products .product-info.col-3 {
+        width: 50% !important;
+        margin: 0 !important;
+        padding-bottom: 15px !important;
+    }
+
+    .bd-right {
+        display: none !important;
+    }
+
+    .port {
+        top: -14px !important;
+        right: 335px !important;
+    }
+
+    .banner-shop,
+    .banner-search {
+        border: 0 !important;
+        padding: 0px 10px !important;
+    }
+
+    .symbol-customer a img {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+    }
+
+    .symbol-customer a {
+        width: 25% !important;
+    }
+
+    .symbol-customer {
+        display: flex !important;
+        width: 100% !important;
+    }
+
+    .partner-block .col-8 {
+        width: 66.66666667% !important;
+    }
+
+    .text-more p {
+        margin-top: 18px !important;
+        font-size: 22px !important;
+
+    }
+
+    .introduce #text {
+        
+        font-size: 23px !important;
+    }
+    .introduce p {
+        font-size: 15px !important;
+        
+    }
+
+    .note {
+        padding: 5px;
+    }
+
+    .btn-click {
+        margin-top: 10px !important;
+    }
+
+    .form-group {
+        padding: 5px !important;
+    }
+
+    .insert-infcustomer .col-6 {
+        width: 50% !important;
+    }
+    .bg-primary>.container{
+        justify-content: flex-start !important;
+    }
+
+    .insert-infcustomer .row, .products .row {
+        width: 100%;
+        margin: 0;
+    }
+    .menu-top .container .row .menu-left{
+        width: 25% !important;
+    }
+    .menu-top .container .row .menu-right{
+        width: 75% !important;
+    }
+    .menu-btn a{
+        padding: 13px 19px !important;
+    }
+
+    .form-inf .input-inf input {
+        margin: 0 !important;
+    }
+
+    .form-inf .input-inf {
+        padding: 0 !important;
+    }
+
+    .text-more {
+        width: 33.33% !important;
+    }
+
+    .content .col-3 {
+        width: 25% !important;
+    }
+    .text-center .text-dark{
+        font-size: 13px !important;
+    }
+    .collapse:not(.show) {
+        display:block !important;
+    }
+    #main_nav {
+       
+        position: absolute !important;
+        right: 3rem !important;
+    }
+    #main_nav .ms-auto {
+        flex-direction: row !important ;
+    }
+    #main_nav .ms-auto li a {
+        margin-right: 5px !important;
+    }
+  
+    .footer-company, .footer-suppot {
+        padding-top: 15px !important;
+       
+    }
+    .inf-company, .inf-support {
+        font-size: 13px;
+    }
+   
+    .form-right {
+       
+        padding-right: 50px;
+        padding-left: 50px !important;
+    }
+}
+@media  (max-width: 600px) {
+    .menu-btn {
+        padding: 5px !important;
+    }
+    .menu-btn a {
+        padding: 12px 12px !important;
+    }
+    .menu-left img {
+        width: 40px !important;
+        height: 30px !important;
+        margin-top: 2px !important;
+    }
+    .banner-house-icon i {
+        font-size: 25px;
+        margin-right: 20px !important;
+        
+    }
+    .banner-house-text ul li {
+        padding: 0 !important;
+    }
+    .menu-info .text-dark {
+        font-size: 12px !important;
+    }
+    .menu-info i {
+        font-size: 30px !important;
+        padding-right: 9px !important;
+       
+    }
+    #navbar_top li a, span {
+        color: #fff;
+        font-size: 10px !important;
+    }
+    .banner-house-text ul li a {
+        font-size: 12px !important;
+        padding: 0 4px !important;
+    }
+    .banner-icon i {
+        font-size: 20px !important;
+        padding: 0 8px !important;
+        color: #ccc !important;
+    }
+    .banner-shop i {
+        font-size: 18px !important;
+        margin: 5px 0 !important;
+        color: #3498db;
+    } 
+    .contact-method img {
+        padding-top: 10px !important;
+        margin-left: 45px !important;
+        width: 23px !important;
+        
+    }
+    
+    .card-data .card_content .card_content_inf {
+        padding: 0em !important;
+       
+    }
+    .card_title {
+        font-size: 1rem !important;
+        letter-spacing: 0px !important;
+        margin: 0px !important;
+        padding: 5px 0 5px 0 !important;
+    }
+    .card_text { 
+        font-size: 0.675rem !important;
+    }
+    .text-center .text-dark {
+        font-size: 10px !important;
+    }
+    .banner-content h3 {
+        
+        font-size: 27px !important;
+    }
+    .banner-content p {
+       
+        font-size: 11px;
+       
+    }
+    .products .product-info.col-3 {
+        width: 49% !important;
+    }
+    .tiding-info.col-4 {
+        width: 24.6% !important;
+    }
+    .tiding-information h3 {
+        font-size: 14px;
+    }
+    .tiding-information p {
+        font-size: 13px;
+    }
+    .tiding-information a {
+        font-size: 17px !important;
+    }
+       
+}
