@@ -1,6 +1,9 @@
 @import './footer.css';
 @import './header.css';
 @import './main.css';
-@import './responsive.css';
 @import './product/product.css';
-@import './style-t.css'
+@import './style-t.css';
+@import './reponsive/desktop_reponsive.css';
+@import './reponsive/tablet_reponsive.css';
+@import './reponsive/mobile_reponsive.css';
+

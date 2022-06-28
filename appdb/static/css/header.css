@@ -271,6 +271,7 @@ span {
 .product-information {
     padding: 25px 20px 41px 20px;
     background-color: #fff;
+    margin-bottom: 20px;
 }
 
 .product-information p {
