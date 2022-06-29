@@ -183,7 +183,7 @@
         /* padding-top: 10px !important; */
         /* margin: 5px !important; */
         margin-left: 23px !important;
-        margin-top: 10px !important;
+        margin-top: 8px !important;
     }
     .footer .mt-3 {
         font-size: 8px !important;
@@ -213,6 +213,9 @@
     }
     .text-center .text-dark {
         font-size: 9px !important;
+    }
+    .footer-img {
+        padding-top: 15px !important;
     }
 
 }
