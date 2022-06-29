@@ -180,12 +180,13 @@
     }
     .footer-img .contact-method img {
         width: 30px !important;
-        padding-top: 10px !important;
-        margin: 5px !important;
+        /* padding-top: 10px !important; */
+        /* margin: 5px !important; */
         margin-left: 23px !important;
+        margin-top: 10px !important;
     }
-    .text-dark {
-        font-size: 9px !important;
+    .footer .mt-3 {
+        font-size: 8px !important;
     }
     /* header  */
     .banner-content {
@@ -207,7 +208,12 @@
         padding: 12px 30px !important;
         
     }
-    
+    .drw-menu {
+        width: 66% !important;
+    }
+    .text-center .text-dark {
+        font-size: 9px !important;
+    }
 
 }
 @media  (max-width:420px) {
@@ -358,9 +364,7 @@
     .tiding-newspaper .tiding-info {
         margin-bottom: 10px !important;
     }
-    .footer-end .text-dark {
-		font-size: 8px !important;
-	}
+    
     .contact-method img {
         width: 28px !important;
         padding-top: 11px !important;
@@ -373,17 +377,17 @@
         padding-left: 0px !important;
     }
     /* footer */
-    .text-dark {
+    /* .text-dark {
         font-size: 13px !important;
+    } */
+
+    .inf-company  {
+        font-size: 12px !important;
     }
 
-    .inf-company p {
+    /* .inf-support p {
         font-size: 13px !important;
-    }
-
-    .inf-support p {
-        font-size: 13px !important;
-    }
+    } */
 
     .contact-method img {
         width: 35px !important;
@@ -407,6 +411,9 @@
         width: 80px !important;
         height: 70px !important;
     }
+    .text-center .text-dark {
+        font-size: 8px !important;
+    }
 
     .partner-block .text-more {
         display: none !important;
@@ -426,10 +433,10 @@
         flex-wrap: wrap;
     }
 
-    .form-inf .container>.row {
+    /* .form-inf .container.row {
         display: block !important;
 
-    }
+    } */ 
 
     .introduce #text {
         text-align: center !important;

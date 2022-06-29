@@ -6,9 +6,11 @@
 }
 
 .drw-menu {
-    width: 33%;
+    margin-top: 5px !important;
+    width: 66%;
     opacity: 0.8;
 }
+
 
 .drw-menu li {
     width: 100%;
