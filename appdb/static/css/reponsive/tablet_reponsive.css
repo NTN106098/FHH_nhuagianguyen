@@ -99,6 +99,9 @@
     .tiding-information a {
         font-size: 20px !important;
     }
+    .footer-img {
+        padding-top: 0 !important;
+    }
    
 }   
 @media screen and  (max-width: 768px) {
@@ -304,7 +307,7 @@
     }
   
     .footer-company, .footer-suppot {
-        padding-top: 15px !important;
+        padding-top: 10px !important;
        
     }
     .inf-company, .inf-support {
@@ -472,5 +475,8 @@
     .footer-img .contact-method img {
         width: 30px !important;
         height: 37px !important;
+    }
+    .footer-company, .footer-suppot {
+         padding-top: 0 !important; 
     }
 }

@@ -176,13 +176,13 @@
         font-size: 18px;
     }
     .footer-img img {
-        width: 85px !important;
+        width: 80px !important;
     }
     .footer-img .contact-method img {
         width: 30px !important;
         /* padding-top: 10px !important; */
         /* margin: 5px !important; */
-        margin-left: 23px !important;
+        margin-left: 22px !important;
         margin-top: 8px !important;
     }
     .footer .mt-3 {
@@ -214,9 +214,7 @@
     .text-center .text-dark {
         font-size: 9px !important;
     }
-    .footer-img {
-        padding-top: 15px !important;
-    }
+    
 
 }
 @media  (max-width:420px) {
