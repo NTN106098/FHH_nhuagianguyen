@@ -39,6 +39,7 @@ span {
 .menu-left img {
     width: 100px;
     height: 58px;
+    cursor: pointer;
 }
 
 .bd-right {
@@ -150,6 +151,7 @@ span {
     position: relative;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .banner-icon i {
