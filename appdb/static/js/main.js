@@ -1,7 +1,6 @@
 
 
 $(".menu-open").on('click', function(e) {
-console.log(1)
     e.preventDefault();
     $(this).parent().toggleClass('active-menu')
 });

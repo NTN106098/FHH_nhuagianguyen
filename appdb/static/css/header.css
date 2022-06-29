@@ -13,8 +13,12 @@ li {
 a {
     text-decoration: none !important;
 }
+
 .menu-open {
     display: none;
+}
+.menu-open img {
+    width: 85px;
 }
 .close-menu {
     display: none;
@@ -316,13 +320,11 @@ span {
     border: 1px solid #ccc;
     width: 150px;
 }
-
 .btm-text {
     position: absolute;
     top: 75%;
     left: 6%;
 }
-
 .btm-text h1 {
     font-size: 20px;
     font-weight: bold;
