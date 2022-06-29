@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
     .banner-icon {      
         margin: 0 !important;
     }
@@ -11,7 +11,7 @@
     } 
     .banner-icon i {
         font-size: 30px !important;
-        padding: 0 12px !important;
+        padding: 3px 12px !important;
     }
     .banner-shop,.banner-search {       
         padding: 20px 25px !important;
@@ -100,10 +100,14 @@
         font-size: 20px !important;
     }
    
-} 
+}   
 @media screen and  (max-width: 768px) {
-    .menu-mid {
+    /* .menu-mid {
         width: 100% !important;
+    } */
+    .banner-house {
+        height: 100%;
+       
     }
     .menu-left img {
         margin-top: 0px !important;
@@ -139,8 +143,9 @@
 
     .banner-icon i {
         font-size: 27px !important;
-        padding: 0 10px !important;
-        color: #ccc !important;
+        /* padding: 0 10px !important; */
+        /* color: #ccc !important; */
+        margin: 5px !important;
     }
 
     .banner-icons .col-2 {
@@ -171,11 +176,27 @@
         top: -14px !important;
         right: 335px !important;
     }
+    .banner-content p {
+       
+        font-size: 15px !important;
+       
+    }
 
     .banner-shop,
     .banner-search {
         border: 0 !important;
-        padding: 18px 10px !important;
+        padding: 16px 10px !important;
+        display: flex;
+        align-items: center;
+    }
+    .banner-shop i {
+        font-size: 25px !important;
+        margin: 9px 0 !important;
+    }
+   
+    .banner-search i {
+        font-size: 25px !important;
+        margin: 9px !important;
     }
 
     .symbol-customer a img {
@@ -244,6 +265,10 @@
     .menu-btn a{
         padding: 13px 19px !important;
     }
+    .menu-info .text-dark {
+        font-size: 11px !important;
+        margin-top: 7px;
+    }
 
     .form-inf .input-inf input {
         margin: 0 !important;
@@ -291,8 +316,14 @@
         padding-right: 50px;
         padding-left: 50px !important;
     }
+    ::placeholder {
+        font-size: 14px !important;
+    }
 }
 @media screen and  (max-width: 600px) {
+    .menu-right {
+        padding: 5px !important;
+    }
     .menu-btn {
         padding: 5px !important;
     }
@@ -347,20 +378,26 @@
         padding-top: 20px !important;
         margin-top: 5px !important;
 }
-    }
-    .banner-icon i {
+    
+    /* .banner-icon i {
         font-size: 20px !important;
         padding: 0 8px !important;
         color: #ccc !important;
+    } */
+    .banner-shop, .banner-search {
+        border: 0 !important;
+        padding: 16px 16px !important;
+        display: flex;
+        align-items: center;
     }
     .banner-shop i {
         font-size: 20px !important;
-        margin: 10px 0 !important;
-        color: #3498db;
+        margin: 13px 0 !important;
+        
     } 
     .banner-search i {
-        font-size: 23px !important;
-        margin: 8px 0 !important;
+        font-size: 24px !important;
+        margin: 10px 0 !important;
     }
     .contact-method img {
         padding-top: 10px !important;

@@ -168,7 +168,7 @@
         font-size: 18px;
     }
     .footer-img img {
-        width: 85px;
+        width: 85px !important;
     }
     .contact-method img {
         width: 28px !important;
@@ -347,8 +347,8 @@
     .contact-method img {
         width: 28px !important;
         padding-top: 11px !important;
-        margin: 14px !important;
-        margin-left: 23px !important;
+        /* margin: 14px !important; */
+        margin-left: 20px !important;
         height: 40px !important;
     }
     .form-right {

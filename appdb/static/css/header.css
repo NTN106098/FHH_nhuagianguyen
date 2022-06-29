@@ -103,13 +103,19 @@ span {
     left: 0;
 }
 
-.banner-house {
+/* .banner-house {
     align-items: center;
-}
+} */
 
 .banner-house-icon {
     padding: 24px 0;
     border-right: 1px solid#ccc;
+    align-items: center;
+    display: flex;
+}
+.banner-house-text {
+    display: flex;
+    align-items: center;
 }
 
 .banner-house-icon i {
