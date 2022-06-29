@@ -434,10 +434,10 @@
         flex-wrap: wrap;
     }
 
-    /* .form-inf .container.row {
+    .form-inf .container>.row {
         display: block !important;
 
-    } */ 
+    } 
 
     .introduce #text {
         text-align: center !important;
@@ -495,5 +495,15 @@
     .image-play img {
         width: 100% !important;
         height: auto !important;
+    }
+}
+@media screen and (max-width:390px) {
+    .text-center .text-dark {
+        font-size: 7px !important;
+    }
+}
+@media screen and (max-width:360px) {
+    .text-center .text-dark {
+        font-size: 6px !important;
     }
 }
