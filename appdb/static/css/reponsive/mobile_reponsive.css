@@ -217,7 +217,7 @@
     .banner {
       background-position: top; 
       height: 30vh !important; 
-      position: relative;
+      /* position: relative; */
       z-index: 22222;
     }
     .drw-menu {
@@ -244,7 +244,12 @@
         width: 95px !important;
         height: 75px !important;
     }
-    
+    .active-menu .banner-menu{
+        left: 0 !important;
+        transition: .5s all;
+        position: fixed;
+
+    }
 
 }
 @media  (max-width:420px) {
@@ -317,9 +322,9 @@
         display: none;
     }
 
-    .banner {
+    /* .banner {
         position: relative;
-    }
+    } */
 
     .menu-open {
         position: fixed;
@@ -347,6 +352,7 @@
     .active-menu .banner-menu{
         left: 0 !important;
         transition: .5s all;
+        position: fixed;
 
     }
 

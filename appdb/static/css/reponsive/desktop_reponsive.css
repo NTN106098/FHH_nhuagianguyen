@@ -1,7 +1,7 @@
 @media screen and (max-width: 1920px) {
     .banner-house-text ul li a {
        
-        font-size: 25px !important;
+        font-size: 25px ;
        
     }
     .banner-icon i {
@@ -43,8 +43,31 @@
         height: 63px !important;
         padding-left: 17px !important;
     }
+    .banner-content h2 {
+        font-size: 40px;
+        color: #3498db;
+        font-weight: 500;
+    }
+    .banner-content h3 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .banner-content p {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .banner-content-btn {
+        margin-top: 50px;
+    }
+
 }
 @media screen and (max-width:1366px) {
+    .banner-house-text ul li a {
+        font-size: 23px ;
+    }
+   
     .form-left .status a {
         display: flex;
         flex-direction: column;
@@ -183,6 +206,19 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .banner-content h2 {
+        font-size: 30px;
+    }
+    .banner-content h3 {
+        font-size: 28px;
+    }
+    .banner-content p {
+        font-size: 18px;
+    }
+    .banner-content-btn a:nth-child(1) {             
+        padding: 12px 30px;
+        
+    }
     .form-left .status a {
         display: flex;
         flex-direction: column;
