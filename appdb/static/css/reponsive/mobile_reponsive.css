@@ -540,6 +540,10 @@
         /* top: -2%; */
         left: 5% !important;
     }
+    .banner-content {
+        top: 13% !important;
+        left: 3% !important;
+    }
 }
 @media screen and (max-width:390px) {
     .text-center .text-dark {
@@ -561,5 +565,10 @@
     .footer-img #logo-footer {
         width: 75px !important;
         height: 63px !important;
+    }
+   
+    .banner-content-btn a:nth-child(1) {
+        padding: 10px 20px !important;
+        font-size: 13px;
     }
 }
