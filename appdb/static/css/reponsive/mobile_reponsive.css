@@ -248,9 +248,7 @@
         position: fixed;
 
     }
-    .banner-content-btn {
-        display: none;
-    }
+   
 
 }
 @media  (max-width:420px) {
@@ -303,7 +301,7 @@
 
     }
     .banner-content-btn {
-        display: none;
+        
         margin-top: 22px !important;
     }
 
