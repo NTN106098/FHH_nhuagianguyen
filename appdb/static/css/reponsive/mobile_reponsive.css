@@ -216,7 +216,7 @@
     }
     .banner {
       background-position: top; 
-      height: 30vh !important; 
+      height: 30vh ; 
       /* position: relative; */
       z-index: 22222;
     }
