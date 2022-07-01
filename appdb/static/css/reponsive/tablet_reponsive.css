@@ -109,7 +109,7 @@
         width: 100% !important;
     } */
     .banner {
-        height: 33vh !important;
+        height: 33vh ;
         background-position: inherit;
     }
     .banner-content {

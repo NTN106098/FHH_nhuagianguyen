@@ -182,8 +182,6 @@
     }
     .footer-img .contact-method img {
         width: 30px !important;
-        /* padding-top: 10px !important; */
-        /* margin: 5px !important; */
         margin-left: 22px !important;
         margin-top: 8px !important;
     }
@@ -198,7 +196,7 @@
         
     }
     .banner-content-btn {
-        margin-top: 25px !important;
+        margin-top: 28px !important;
     }
     .banner-content h2 {
         font-size: 24px !important;
@@ -216,8 +214,8 @@
     }
     .banner {
       background-position: top; 
-      height: 50vh ; 
-      /* position: relative; */
+      height: 30vh ; 
+      
       z-index: 22222;
     }
     .drw-menu {
@@ -297,6 +295,9 @@
 
         font-size: 12px;
 
+    }
+    .banner-content-btn {
+        margin-top: 23px !important;
     }
 
     .product-company h1 {
@@ -419,18 +420,10 @@
         padding-right: 50px;
         padding-left: 0px !important;
     }
-    /* footer */
-    /* .text-dark {
-        font-size: 13px !important;
-    } */
 
     .inf-company  {
         font-size: 12px !important;
     }
-
-    /* .inf-support p {
-        font-size: 13px !important;
-    } */
 
     .contact-method img {
         width: 35px !important;
@@ -444,9 +437,6 @@
     }
 
     .footer .footer-img {
-        /* display: flex !important;
-        align-items: center;
-        justify-content: space-between; */
         flex-direction: column;
         padding-top: 0;
     }
@@ -494,8 +484,6 @@
     }
 
     .form-left .status a {
-        /* display: flex;
-        align-items: flex-end; */
         font-size: 8px !important;
 
     }
@@ -543,7 +531,6 @@
     }
     .btm-text {
         position: relative;
-        /* top: -2%; */
         left: 5% !important;
     }
     .banner-content {
@@ -564,10 +551,7 @@
     .text-center .text-dark {
         font-size: 6px !important;
     }
-    /* .footer-img img {
-        width: 70px !important;
-        height: 65px !important;
-    } */
+    
     .footer-img #logo-footer {
         width: 75px !important;
         height: 63px !important;
