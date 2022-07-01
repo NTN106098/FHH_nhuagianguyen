@@ -18,7 +18,13 @@ a {
     display: none;
 }
 .menu-open img {
-    width: 85px;
+    width: 40px;
+    z-index: 11111;
+    position: relative;
+    top: 10px;
+    right: 10px;
+    background: #c3e1f5;
+    border-radius: 50%;
 }
 .close-menu {
     display: none;
@@ -57,6 +63,7 @@ span {
     margin-top: 5px;
     padding-right: 15px;
     color: #3498db;
+    padding-left: 10px;
 }
 
 .menu-info p {

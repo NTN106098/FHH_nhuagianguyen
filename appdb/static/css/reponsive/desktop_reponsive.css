@@ -1,4 +1,55 @@
+@media screen and (max-width: 1920px) {
+    .banner-house-text ul li a {
+       
+        font-size: 25px !important;
+       
+    }
+    .banner-icon i {
+        font-size: 25px !important;
+    }
+    .banner-shop i {
+        font-size: 25px !important;
+    }
+    .banner-search i {
+        font-size: 25px !important;
+    }
+    .introduce #text {
+        font-size: 40px !important;
+    }
+    .text-more p {
+        font-size: 35px !important;
+    }
+    .symbol-customer a img {
+        width: 210px !important;
+    }
+    .product-information p {
+        font-size: 17px;
+    }
+    .product-introduce p {
+        font-size: 17px;
+    }
+    .tiding-information p {
+        font-size: 15px;
+    }
+
+    .form-left .status a {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        margin-left: 21px;
+    }
+    .status a img {
+        width: 97px !important;
+        height: 63px !important;
+        padding-left: 17px !important;
+    }
+}
 @media screen and (max-width:1366px) {
+    .form-left .status a {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+    }
     .text-more p {
         font-size: 31px;
         margin-top: 31px !important;
@@ -53,14 +104,32 @@
        
         padding-right: 50px;
     }
+    .status a img {
+        width: 70px !important;
+        height: 50px !important;
+        /* padding-left: 15px !important; */
+        position: relative;
+        left: 2px;
+    }
+    .symbol-customer a img {
+        width: 180px !important;
+    }
+    .footer-img #logo-footer {
+        width: 180px !important;
+        height: 100px !important;
+    }
 }
 @media screen and (max-width:1170px) {
+    .form-left .status a {
+        display: flex;
+        flex-direction: column;
+    }
     .menu-btn a {
         padding: 13px 14px !important
     }
     .banner-house-text ul li a {
         
-        font-size: 13px;
+        font-size: 15px !important;
         
     }
     .products .product-info.col-3 {
@@ -79,10 +148,21 @@
         font-size: 30px !important;
     }
     .introduce p {
-        font-size: 21px !important;
+        font-size: 17px !important;
     }
     .text-dark {
         font-size: 16px !important;
+    }
+    .form-left .status a {
+      
+        font-size: 22px;
+        
+    }
+    .status a img {
+        width: 50px !important;
+        height: 40px !important;
+        position: relative;
+        left: 14px ;
     }
      /* store  */
      .drw-show {
@@ -97,9 +177,16 @@
        
         padding-right: 50px;
     }
+    .text-dark {
+        font-size: 20px !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
+    .form-left .status a {
+        display: flex;
+        flex-direction: column;
+    }
     .drw-menu {
         margin-top: 6px !important;
         width: 33% !important;
@@ -121,7 +208,7 @@
     }
     .banner-house-text ul li a {
         
-        font-size: 13px;
+        font-size: 16px !important;
         
     }
     .text-more p {
@@ -135,12 +222,13 @@
         font-size: 18px !important ;
     }
     .status a img {
-        width: 49px !important;
-        height: 43px;
+        width: 55px !important;
+        height: 40px !important;
         padding-left: 10px ;
+        left: 2px ;
     }
     .status a { 
-        font-size: 17px !important;  
+        font-size: 20px !important;  
     }
     .footer-company, .footer-suppot {
         font-size: 15px !important;
@@ -160,5 +248,8 @@
     .form-right {
        
         padding-right: 50px;
+    }
+    ::placeholder {
+        font-size: 14px ;
     }
 }
