@@ -213,7 +213,7 @@
         
     }
     .banner {
-      background-position: top; 
+      /* background-position: top;  */
       height: 30vh ; 
       
       z-index: 22222;
@@ -248,9 +248,15 @@
         position: fixed;
 
     }
+    .banner-content-btn {
+        display: none;
+    }
 
 }
 @media  (max-width:420px) {
+    .btm::after {
+        width: 260px !important;
+    }
     .footer-img {
         padding-top: 4px !important;
     }
@@ -297,6 +303,7 @@
 
     }
     .banner-content-btn {
+        display: none;
         margin-top: 22px !important;
     }
 

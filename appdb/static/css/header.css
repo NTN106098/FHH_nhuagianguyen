@@ -104,6 +104,7 @@ span {
     height: 50vh;
     position: relative;
     opacity: 0.9;
+    background-position: center;
 }
 
 .banner-menu {
