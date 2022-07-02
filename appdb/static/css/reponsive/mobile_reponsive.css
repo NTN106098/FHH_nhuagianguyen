@@ -148,13 +148,14 @@
         font-size: 13px !important;
     }
     .introduce p {
-        font-size: 12px !important;
-    }
-    .introduce #text {
         font-size: 14px !important;
     }
+    .introduce #text {
+        font-size: 20px !important;
+        text-align: center;
+    }
     ::placeholder {
-        font-size: 8px !important;
+        font-size: 12px !important;
     }
     .status a img {
         width: 40px !important;
@@ -165,7 +166,7 @@
         font-size: 12px !important;
     }
     .tiding-info.col-4 {
-        width: 26.6% !important;
+        width: 93.6% !important;
     }
     .tiding-information h3 {
         font-size: 15px !important;
@@ -252,7 +253,33 @@
         width: 264px !important;
         left: 88px;
     }
-   
+    .form-left .status {
+        bottom: 0px;
+        position: relative !important;
+        justify-content: center !important;
+    }
+
+    .form-left .status a {
+        font-size: 12px !important;
+
+    }
+
+    .status a img {
+        width: 30px !important;
+        height: auto !important;
+        padding-left: 0 !important;
+    }
+
+    .form-right {
+        padding: 10px 0 0 !important;
+        position: relative;
+    }
+    .form-inf .container>.row {
+       display: block;
+    }
+    .tiding-newspaper {
+        flex-direction: column;
+    }
 
 }
 @media  (max-width:420px) {
