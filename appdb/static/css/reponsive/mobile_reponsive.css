@@ -551,7 +551,7 @@
 }
 @media screen and (max-width:390px) {
     .banner {
-        height: 25vh;
+        height: 30vh;
     }
     .text-center .text-dark {
         font-size: 7px !important;
