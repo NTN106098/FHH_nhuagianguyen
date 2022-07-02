@@ -562,7 +562,7 @@
     }
     .btm::after {
         width: 222px !important;
-        left: 60px;
+        left: 45px;
     }
 }
 @media screen and (max-width:360px) {
