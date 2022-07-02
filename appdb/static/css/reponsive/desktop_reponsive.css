@@ -35,12 +35,12 @@
     .form-left .status a {
         display: flex;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 24px;
         
     }
     .status a img {
-        width: 97px !important;
-        height: 63px !important;
+        width: 65px !important;
+        height: 50px !important;
         padding-left: 17px !important;
     }
     .banner-content h2 {
