@@ -196,7 +196,7 @@
         
     }
     .banner-content-btn {
-        margin-top: 15px !important;
+        margin-top: 38px !important;
     }
     .banner-content h2 {
         font-size: 20px !important;
@@ -205,7 +205,7 @@
         font-size: 18px !important;
     }
     .banner-content p {
-        font-size: 11px !important;
+        font-size: 12px !important;
     }
     .banner-content-btn a:nth-child(1) {
       
@@ -214,7 +214,7 @@
     }
     .banner {
       /* background-position: top;  */
-      height: 30vh ; 
+      height: 40vh ; 
       
       z-index: 22222;
     }
@@ -302,7 +302,7 @@
     }
     .banner-content-btn {
         
-        margin-top: 22px !important;
+        margin-top: 38px !important;
     }
 
     .product-company h1 {
@@ -328,9 +328,11 @@
         display: none;
     }
 
-    /* .banner {
-        position: relative;
-    } */
+    .banner {
+        background-position: top;
+        height: 40vh;
+        z-index: 22222;
+    }
 
     .menu-open {
         position: fixed;

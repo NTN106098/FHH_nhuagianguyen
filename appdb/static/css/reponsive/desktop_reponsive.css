@@ -14,7 +14,7 @@
         font-size: 25px !important;
     }
     .introduce #text {
-        font-size: 40px !important;
+        font-size: 40px ;
     }
     .text-more p {
         font-size: 35px !important;
@@ -201,7 +201,17 @@
         padding-right: 50px;
     }
     .text-dark {
-        font-size: 20px !important;
+        font-size: 17px !important;
+    }
+    .banner {
+        height: 60vh ;
+        background-position: inherit;
+    }
+    .banner-content p {
+        font-size: 22px;
+    }
+    .footer-img {
+        padding-top: 5px;
     }
 }
 
