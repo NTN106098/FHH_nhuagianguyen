@@ -298,4 +298,7 @@
     ::placeholder {
         font-size: 14px ;
     }
+    .inf-support p {
+        font-size: 14px;
+    }
 }
