@@ -282,8 +282,8 @@
 
     }
     .btm::after {
-        width: 264px !important;
-        left: 88px;
+        width: 250px !important;
+        left: 50px;
     }
     .form-left .status {
         bottom: 0px;
