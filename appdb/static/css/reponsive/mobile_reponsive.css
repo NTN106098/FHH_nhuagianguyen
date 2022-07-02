@@ -199,7 +199,7 @@
         margin-top: 38px !important;
     }
     .banner-content h2 {
-        font-size: 20px !important;
+        font-size: 20px ;
     }
     .banner-content h3 {
         font-size: 18px !important;
@@ -247,6 +247,10 @@
         transition: .5s all;
         position: fixed;
 
+    }
+    .btm::after {
+        width: 264px !important;
+        left: 88px;
     }
    
 
@@ -546,6 +550,9 @@
     }
 }
 @media screen and (max-width:390px) {
+    .banner {
+        height: 25vh;
+    }
     .text-center .text-dark {
         font-size: 7px !important;
     }
@@ -554,7 +561,8 @@
         height: 70px !important;
     }
     .btm::after {
-        width: 230px !important;
+        width: 222px !important;
+        left: 60px;
     }
 }
 @media screen and (max-width:360px) {
