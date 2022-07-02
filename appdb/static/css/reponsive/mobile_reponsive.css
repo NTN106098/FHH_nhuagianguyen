@@ -333,7 +333,7 @@
     }
 
     .banner {
-        background-position: top;
+        background-position: center;
         height: 40vh;
         z-index: 22222;
     }
@@ -551,7 +551,7 @@
 }
 @media screen and (max-width:390px) {
     .banner {
-        height: 30vh;
+        height: 40vh;
     }
     .text-center .text-dark {
         font-size: 7px !important;
@@ -579,7 +579,5 @@
         padding: 10px 20px !important;
         font-size: 13px;
     }
-    .btm::after {
-        width: 210px !important;
-    }
+   
 }
