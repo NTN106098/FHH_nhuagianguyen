@@ -1,4 +1,36 @@
 @media  screen and (max-width:480px) {
+    .footer .container .row {
+        flex-direction: column-reverse;
+    }
+    .footer .footer-img {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer .footer-img .contact-method {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 35px;
+    }
+    .footer-company, .footer-suppot {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-company .inf-company {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+    .inf-company p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .inf-support p {
+        font-size: 13px;
+    }
+
+
+
+
     .active-menu .menu-open {
         display: none !important;
     }
@@ -474,10 +506,7 @@
         width: 100% !important;
     }
 
-    .footer .footer-img {
-        flex-direction: column;
-        padding-top: 0;
-    }
+   
     .footer-img img {
         width: 80px !important;
         height: 70px !important;
