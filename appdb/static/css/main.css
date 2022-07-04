@@ -272,6 +272,7 @@
   .blog-card:hover .details {
     left: 0%;
   }
+  
 
   @media (max-width: 1366px) {
     .blog-card {
