@@ -174,7 +174,7 @@ span {
     padding: 6px 13px;
     color: #ccc;
 }
-.banner-icon-end {
+/* .banner-icon-end {
     width: 20%;
 }
 .banner-shop {
@@ -197,12 +197,12 @@ span {
     font-size: 20px;
     margin: 5px 0;
     color: #3498db;
-}
+} */
 
 .banner-content {
     position: absolute;
     top: 30%;
-    left: 9%;
+    left: 16%;
 }
 
 .banner-content h2 {

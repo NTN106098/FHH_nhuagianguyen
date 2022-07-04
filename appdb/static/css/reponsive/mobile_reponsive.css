@@ -189,14 +189,6 @@
     ::placeholder {
         font-size: 12px !important;
     }
-    .status a img {
-        width: 40px !important;
-        height: 34px !important;
-        padding-left: 4px !important;
-    }
-    .status a {
-        font-size: 12px !important;
-    }
     .tiding-info.col-4 {
         width: 93.6% !important;
     }
@@ -285,22 +277,7 @@
         width: 250px !important;
         left: 50px;
     }
-    .form-left .status {
-        bottom: 0px;
-        position: relative !important;
-        justify-content: center !important;
-    }
 
-    .form-left .status a {
-        font-size: 12px !important;
-
-    }
-
-    .status a img {
-        width: 30px !important;
-        height: auto !important;
-        padding-left: 0 !important;
-    }
 
     .form-right {
         padding: 10px 0 0 !important;
@@ -542,23 +519,6 @@
         text-align: center !important;
         text-transform: uppercase;
         font-size: 15px !important;
-    }
-
-    .form-left .status {
-        bottom: 0px;
-        position: relative !important;
-        justify-content: center !important;
-    }
-
-    .form-left .status a {
-        font-size: 8px !important;
-
-    }
-
-    .status a img {
-        width: 30px !important;
-        height: auto !important;
-        padding-left: 0 !important;
     }
 
     .form-right {

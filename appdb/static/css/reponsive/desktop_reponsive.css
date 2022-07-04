@@ -32,17 +32,6 @@
         font-size: 15px;
     }
 
-    .form-left .status a {
-        display: flex;
-        flex-direction: column;
-        font-size: 24px;
-        
-    }
-    .status a img {
-        width: 65px !important;
-        height: 50px !important;
-        padding-left: 17px !important;
-    }
     .banner-content h2 {
         font-size: 40px;
         color: #3498db;
@@ -61,18 +50,23 @@
     .banner-content-btn {
         margin-top: 50px;
     }
-
+    .drw-show {
+        position: relative !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .cm-title:after {
+       
+        width: 150px;
+        margin-left: -74px;
+      
+    }
 }
 @media screen and (max-width:1366px) {
     .banner-house-text ul li a {
         font-size: 23px ;
     }
    
-    .form-left .status a {
-        display: flex;
-        flex-direction: column;
-        font-size: 22px;
-    }
     .text-more p {
         font-size: 31px;
         margin-top: 31px !important;
@@ -127,13 +121,6 @@
        
         padding-right: 50px;
     }
-    .status a img {
-        width: 70px !important;
-        height: 50px !important;
-        /* padding-left: 15px !important; */
-        position: relative;
-        left: 2px;
-    }
     .symbol-customer a img {
         width: 180px !important;
     }
@@ -143,10 +130,6 @@
     }
 }
 @media screen and (max-width:1170px) {
-    .form-left .status a {
-        display: flex;
-        flex-direction: column;
-    }
     .menu-btn a {
         padding: 13px 14px !important
     }
@@ -176,18 +159,6 @@
     .text-dark {
         font-size: 16px !important;
     }
-    .form-left .status a {
-      
-        font-size: 22px;
-        
-    }
-    .status a img {
-        width: 50px !important;
-        height: 40px !important;
-        position: relative;
-        left: 14px ;
-    }
-     /* store  */
      .drw-show {
        
        
@@ -229,10 +200,6 @@
         padding: 12px 30px;
         
     }
-    .form-left .status a {
-        display: flex;
-        flex-direction: column;
-    }
     .drw-menu {
         margin-top: 6px !important;
         width: 33% !important;
@@ -266,15 +233,6 @@
     }
     .introduce p {
         font-size: 18px !important ;
-    }
-    .status a img {
-        width: 55px !important;
-        height: 40px !important;
-        padding-left: 10px ;
-        left: 2px ;
-    }
-    .status a { 
-        font-size: 20px !important;  
     }
     .footer-company, .footer-suppot {
         font-size: 15px !important;
