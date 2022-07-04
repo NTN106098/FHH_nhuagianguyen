@@ -41,5 +41,19 @@
 .footer-img {
     padding-top: 15px;
 }
+.footer-chat  {
+    position: relative;
+    bottom: 50px;
+}
+.icons-chat {
+    position: fixed;
+    right: 10px;
+    z-index: 1;
+    bottom: 50px;
+    flex-direction: column;
+}
+.icons-chat:first-child {
+    bottom: 15px;
+}
 
 
